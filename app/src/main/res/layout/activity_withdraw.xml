@@ -1,0 +1,47 @@
+<!-- res/layout/activity_deposit.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:padding="16dp">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="218dp"
+        android:src="@drawable/s"/>
+
+    <TextView
+        android:id="@+id/tvWithdrawBalance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:text="Current Balance: $0.00"
+        android:textSize="30sp"
+        android:textColor="@color/red"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/etWithdrawAmount"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_below="@id/tvWithdrawBalance"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="118dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/gradient_background"
+        android:hint="Enter Withdrawal Amount"
+        android:inputType="numberDecimal"
+        android:textColor="@color/red"
+        android:textColorHint="@color/red" />
+
+    <Button
+        android:id="@+id/btnWithdraw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etWithdrawAmount"
+        android:layout_marginTop="77dp"
+        android:text="Withdraw"
+    />
+</RelativeLayout>

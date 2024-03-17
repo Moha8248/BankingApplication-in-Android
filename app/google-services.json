@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "260410613145",
+    "firebase_url": "https://bankms-14756-default-rtdb.firebaseio.com",
+    "project_id": "bankms-14756",
+    "storage_bucket": "bankms-14756.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:260410613145:android:561efeb28da7046558c708",
+        "android_client_info": {
+          "package_name": "com.example.bankms"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFxPq7ZxXggCNYXltVq4znHHYZ7u0B2_E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

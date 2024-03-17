@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradient_background2"
+    android:layout_height="match_parent">
+
+
+  <Button
+      android:id="@+id/addaccount"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/imageView"
+      android:layout_marginTop="-8dp"
+      android:text="Add Account" />
+
+  <Button
+      android:id="@+id/recentTransactionsButton"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/transferMoneyButton"
+      android:layout_marginTop="20dp"
+      android:text="Recent Transactions" />
+
+  <Button
+      android:id="@+id/transferMoneyButton"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/withdraw"
+      android:layout_marginTop="20dp"
+      android:text="Transfer Money" />
+
+  <Button
+      android:id="@+id/payBillsButton"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/recentTransactionsButton"
+      android:layout_marginTop="20dp"
+      android:text="Pay Bills" />
+
+  <Button
+      android:id="@+id/profile"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/addaccount"
+      android:layout_marginTop="20dp"
+      android:text="Profile" />
+
+  <Button
+      android:id="@+id/deposite"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/profile"
+      android:layout_marginTop="20dp"
+      android:text="Deposite" />
+
+  <Button
+      android:id="@+id/withdraw"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/deposite"
+      android:layout_marginTop="20dp"
+      android:text="Withdraw" />
+
+  <ImageView
+      android:id="@+id/imageView"
+      android:layout_width="match_parent"
+      android:layout_height="218dp"
+      android:src="@drawable/s"/>
+
+  <Button
+      android:id="@+id/logout"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/payBillsButton"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="20dp"
+      android:text="Logout" />
+</RelativeLayout>

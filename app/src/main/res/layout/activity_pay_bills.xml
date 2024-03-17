@@ -1,0 +1,51 @@
+<!-- res/layout/activity_pay_bills.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="218dp"
+       android:src="@drawable/s" />
+
+    <!-- Bill Type Spinner -->
+
+    <!-- Bill Amount Input -->
+
+    <Spinner
+        android:id="@+id/billTypeSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/imageView"
+        android:layout_marginTop="105dp"
+        android:textColor="#FF0000"
+        android:background="@drawable/gradient_background2"
+        android:textColorHint="#FF0000"
+        android:layout_marginBottom="8dp"
+         />
+
+    <!-- Pay Button -->
+    <EditText
+        android:id="@+id/amountEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/billTypeSpinner"
+        android:textColor="#FF0000"
+        android:background="@drawable/gradient_background2"
+        android:textColorHint="#FF0000"
+        android:layout_marginTop="56dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Enter amount"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/payButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/amountEditText"
+        android:layout_marginTop="97dp"
+        android:text="Pay" />
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:padding="16dp">
+
+<TextView
+    android:id="@+id/senderTextView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Sender: "
+    android:textStyle="bold"/>
+
+<TextView
+    android:id="@+id/senderNameTextView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_toRightOf="@id/senderTextView"/>
+
+<TextView
+    android:id="@+id/recipientTextView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/senderTextView"
+    android:text="Recipient: "
+    android:textStyle="bold"/>
+
+<TextView
+    android:id="@+id/recipientNameTextView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_toRightOf="@id/recipientTextView"
+    android:layout_below="@id/senderNameTextView"/>
+
+<TextView
+    android:id="@+id/amountTextView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/recipientTextView"
+    android:text="Amount: "
+    android:textStyle="bold"/>
+
+<TextView
+    android:id="@+id/amountValueTextView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_toRightOf="@id/amountTextView"
+    android:layout_below="@id/recipientNameTextView"/>
+
+</RelativeLayout>

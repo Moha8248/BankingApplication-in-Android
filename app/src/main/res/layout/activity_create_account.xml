@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background">
+
+    <EditText
+        android:id="@+id/etPancard"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/etOccupation"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:hint="PanCard No"
+        android:inputType="number"
+        android:singleLine="true"
+        android:textColor="#FF0000"
+        android:background="@drawable/back3"
+        android:textColorHint="#FF0000" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        android:textColor="#FF0000"
+        android:textSize="40dp"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/etFullName"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/textView"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/back3"
+        android:hint="Full Legal Name"
+        android:singleLine="true"
+        android:textColor="#FF0000"
+        android:textColorHint="#FF0000" />
+
+    <EditText
+        android:id="@+id/etDateOfBirth"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/etFullName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/back3"
+        android:hint="Date of Birth"
+        android:inputType="date"
+        android:singleLine="true"
+        android:textColor="#FF0000"
+        android:textColorHint="#FF0000" />
+
+    <EditText
+        android:id="@+id/etAddress"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/etDateOfBirth"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/back3"
+        android:hint="Address"
+        android:textColor="#FF0000"
+        android:textColorHint="#FF0000" />
+
+    <EditText
+        android:id="@+id/etPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/etAddress"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/back3"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        android:singleLine="true"
+        android:textColor="#FF0000"
+        android:textColorHint="#FF0000" />
+
+    <EditText
+        android:id="@+id/etEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/etPhoneNumber"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+
+        android:background="@drawable/back3"
+        android:hint="Email Address"
+        android:inputType="textEmailAddress"
+        android:singleLine="true"
+        android:textColor="#FF0000"
+        android:textColorHint="#FF0000" />
+
+    <EditText
+        android:id="@+id/etAadharNo"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/etPancard"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/back3"
+        android:hint="Aadhar No"
+        android:inputType="number"
+        android:singleLine="true"
+        android:textColor="#FF0000"
+        android:textColorHint="#FF0000" />
+
+
+    <EditText
+        android:id="@+id/etOccupation"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/etEmailAddress"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/back3"
+        android:hint="Occupation"
+        android:singleLine="true"
+        android:textColor="#FF0000"
+        android:textColorHint="#FF0000" />
+
+    <EditText
+        android:id="@+id/etInitialAmount"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/etAadharNo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/back3"
+        android:fontFamily="sans-serif-black"
+        android:hint="Initial Amount"
+        android:inputType="number"
+        android:singleLine="true"
+        android:textColor="#FF0000"
+        android:textColorHint="#FF0000" />
+
+
+    <Button
+        android:id="@+id/btnCreateAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD Account"
+        android:layout_below="@id/etInitialAmount"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

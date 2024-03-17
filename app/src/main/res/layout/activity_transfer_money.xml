@@ -1,0 +1,52 @@
+<!-- res/layout/activity_transfer_money.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="218dp"
+        android:src="@drawable/s"/>
+    <!-- Recipient's Phone Number Input -->
+
+    <!-- Transfer Amount Input -->
+    <EditText
+        android:id="@+id/etRecipientIdentifier"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/imageView"
+        android:layout_marginTop="33dp"
+        android:layout_marginBottom="8dp"
+        android:textColorHint="@color/red"
+        android:background="@drawable/back3"
+        android:hint="Enter Mobile No or Account No"
+        android:inputType="phone" />
+
+    <!-- Transfer Button -->
+    <EditText
+        android:id="@+id/etTransferAmount"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/etRecipientIdentifier"
+        android:layout_marginTop="43dp"
+        android:background="@drawable/back3"
+        android:textColorHint="@color/red"
+        android:layout_marginBottom="16dp"
+        android:hint="Enter transfer amount"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnTransfer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etTransferAmount"
+        android:layout_marginTop="68dp"
+        android:text="Transfer Money" />
+</RelativeLayout>
+
+
+
+
